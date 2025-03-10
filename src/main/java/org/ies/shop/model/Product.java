@@ -13,6 +13,6 @@ public class Product {
     protected String name;
     protected Double price;
     Set<String> tags;
-    Map<Integer, Product> productsById;
+
 
 }

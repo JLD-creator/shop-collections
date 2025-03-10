@@ -11,6 +11,6 @@ public class Order {
     protected int id;
     protected String date;
     protected Double price;
-    List<Item> items;
+
 
 }
