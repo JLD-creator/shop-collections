@@ -1,7 +1,10 @@
-package org.ies.shop.model;
+package org.ies.shop;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
+import org.ies.shop.model.Item;
+import org.ies.shop.model.Order;
+import org.ies.shop.model.Product;
 
 import java.util.List;
 import java.util.Map;
