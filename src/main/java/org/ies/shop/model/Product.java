@@ -12,7 +12,7 @@ public class Product {
     protected int idPorduct;
     protected String name;
     protected Double price;
-    Set<String> tags;
+     protected Set<String> tags;
 
 
 }

@@ -5,6 +5,7 @@ import lombok.Data;
 
 import java.util.List;
 import java.util.Map;
+import java.util.TreeSet;
 
 @Data
 @AllArgsConstructor
@@ -13,4 +14,5 @@ public class Shop {
     List<Item> items;
     Map<Integer, Product> productsById;
     List<Order> orders;
+    protected TreeSet<Customer> customers;
 }
